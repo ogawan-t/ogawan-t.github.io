@@ -1,0 +1,28 @@
+header h1{
+    font-size:14px;
+    text-align: center;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav  ul{
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}
+.nav  ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav  ul li > a{
+    color: #555;
+    text-decoration: none;
+}
+
+.main{
+    background:#f9f9f9;
+    min-height: 500px;
+}
