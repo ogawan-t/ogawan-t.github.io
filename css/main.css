@@ -22,7 +22,37 @@ a:-webkit-any-link {
     text-decoration: none;
 }
 
+.title{
+    font-size:16px;
+    color: #333333;
+    margin: 20px 10px 0 10px;
+}
+
 .main{
     background:#f9f9f9;
     min-height: 500px;
+}
+
+.topImg{
+    text-align: center;
+    margin:auto;
+}
+
+.topcontent{
+    margin:0 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.topcontent img{
+    width: 200px;
+    margin: 0 10px;
+}
+
+
+/*プロフィール*/
+.profile{
+    width: 600px;
+    text-align: left;
+    margin: auto;
 }
