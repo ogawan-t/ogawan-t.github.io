@@ -33,16 +33,6 @@ a:-webkit-any-link {
     min-height: 500px;
 }
 
-.topImg{
-    text-align: center;
-    margin:auto;
-}
-
-.topcontent{
-    margin:0 20px;
-    padding: 20px;
-    text-align: left;
-}
 
 .topcontent img{
     height: 220px;
@@ -51,8 +41,19 @@ a:-webkit-any-link {
 
 
 /*プロフィール*/
-.profile{
-    width: 600px;
+.profile,.reportwarap,.workImg, .title,.topcontent,.topImg{
+    width: 700px;
     text-align: left;
     margin: auto;
 }
+
+.title{
+    margin-bottom: 5px;
+    color: darkgray;
+    font-size: 10px;
+}
+
+.workImg img{
+    margin-bottom: 7px;
+}
+
