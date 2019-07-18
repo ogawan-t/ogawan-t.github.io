@@ -3,9 +3,14 @@ header h1{
     text-align: center;
 }
 
+.index{
+    color: #333333;
+    text-decoration: none;
+
+}
+
 a:-webkit-any-link {
     cursor: pointer;
-    text-decoration: underline;
 }
 
 .nav  ul{
@@ -41,16 +46,22 @@ a:-webkit-any-link {
 
 
 /*プロフィール*/
-.profile,.reportwarap,.workImg, .title,.topcontent,.topImg{
+.profile,.reportwarap, .title,.topcontent{
     width: 700px;
     text-align: left;
     margin: auto;
 }
 
+.topImg,.workImg{
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+
 .title{
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     color: darkgray;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .workImg img{
