@@ -1,5 +1,5 @@
 header h1{
-    font-size:14px;
+    font-size:20px !important;
     text-align: center;
 }
 
@@ -41,20 +41,19 @@ a:-webkit-any-link {
 
 
 .topcontent img{
-    width: 350px;
+    width: 300px;
     margin: 0 10px;
 }
 
 
 /*プロフィール*/
 .profile,.reportwarap, .title,.topcontent{
-
     text-align: left;
     margin: auto;
 }
 
 .topImg,.workImg{
-    width: 1300px;
+    width: auto;
     text-align: center;
     margin: auto;
 }
