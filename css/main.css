@@ -40,23 +40,24 @@ a:-webkit-any-link {
 
 
 .topcontent img{
-    height: 220px;
+    width: 350px;
     margin: 0 10px;
 }
 
 
 /*プロフィール*/
 .profile,.reportwarap, .title,.topcontent{
-    width: 700px;
+
     text-align: left;
     margin: auto;
 }
 
 .topImg,.workImg{
-    width: 700px;
+    width: 1300px;
     text-align: center;
     margin: auto;
 }
+
 
 .title{
     margin-bottom: 15px;
